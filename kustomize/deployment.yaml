@@ -18,7 +18,6 @@ spec:
       annotations:
         prometheus.io/scrape: "true"
         prometheus.io/port: "9797"
-        #inject.istio.io/templates: sidecar,custom
       labels:
         app: podinfo
     spec:
